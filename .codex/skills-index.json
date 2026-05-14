@@ -15,7 +15,7 @@
       "name": "contract-and-proposal-writer",
       "source": "../../business-growth/skills/contract-and-proposal-writer",
       "category": "business-growth",
-      "description": "Contract & Proposal Writer"
+      "description": "Generate professional, jurisdiction-aware business documents: freelance contracts, project proposals, SOWs, NDAs, and MSAs. Structured Markdown output with docx conversion instructions. Covers US (Delaware), EU (GDPR), UK, and DACH (German law) jurisdictions. Not a substitute for legal counsel \u2014 use as strong starting points. Use when drafting a freelance contract, preparing a client proposal, writing an SOW for a new engagement, or producing an NDA before sharing sensitive material."
     },
     {
       "name": "customer-success-manager",
@@ -273,7 +273,7 @@
       "name": "email-template-builder",
       "source": "../../engineering-team/skills/email-template-builder",
       "category": "engineering",
-      "description": "Email Template Builder"
+      "description": "Build complete transactional email systems: React Email templates, provider integration (Resend, Postmark, SendGrid, AWS SES), preview server, i18n support, dark mode, spam optimization, analytics tracking. Use when adding transactional email to a new product, migrating between email providers, refactoring legacy email templates for accessibility, or adding internationalization to existing templates."
     },
     {
       "name": "engineering-skills",
@@ -297,7 +297,7 @@
       "name": "incident-commander",
       "source": "../../engineering-team/skills/incident-commander",
       "category": "engineering",
-      "description": "Incident Commander Skill"
+      "description": "Comprehensive incident response framework from detection through resolution and post-incident review. Battle-tested SRE/DevOps practices: severity classification, timeline reconstruction, structured post-incident analysis. Use when declaring an incident, coordinating multi-team response during an outage, leading a post-mortem, or setting up on-call practices for a new service."
     },
     {
       "name": "incident-response",
@@ -405,7 +405,7 @@
       "name": "stripe-integration-expert",
       "source": "../../engineering-team/skills/stripe-integration-expert",
       "category": "engineering",
-      "description": "Stripe Integration Expert"
+      "description": "Production-grade Stripe integrations: subscriptions with trials and proration, one-time payments, usage-based billing, checkout sessions, idempotent webhook handlers, customer portal, and invoicing. Covers Next.js, Express, and Django patterns. Use when integrating Stripe for the first time, debugging webhook reliability issues, migrating from a different payment provider, or adding usage-based billing to an existing subscription product."
     },
     {
       "name": "tdd-guide",
@@ -435,7 +435,7 @@
       "name": "agent-workflow-designer",
       "source": "../../engineering/skills/agent-workflow-designer",
       "category": "engineering-advanced",
-      "description": "Agent Workflow Designer"
+      "description": "Design production-grade multi-agent workflows with clear pattern choice (sequential, parallel, hierarchical), handoff contracts, failure handling, and cost/context controls. Use when architecting a multi-step agent pipeline, choosing between single-agent vs multi-agent approaches, or refactoring an LLM workflow that suffers from context bloat or unreliable handoffs."
     },
     {
       "name": "api-design-reviewer",
@@ -513,7 +513,7 @@
       "name": "env-secrets-manager",
       "source": "../../engineering/skills/env-secrets-manager",
       "category": "engineering-advanced",
-      "description": "Env & Secrets Manager"
+      "description": "Manage environment-variable hygiene and secrets safety across local development and production. Practical auditing, drift awareness, rotation readiness. Use when auditing .env files for committed secrets, planning a credential rotation, debugging missing-env-var production incidents, or hardening a new project against secrets leakage."
     },
     {
       "name": "feature-flags-architect",
@@ -537,7 +537,7 @@
       "name": "git-worktree-manager",
       "source": "../../engineering/skills/git-worktree-manager",
       "category": "engineering-advanced",
-      "description": "Git Worktree Manager"
+      "description": "Run parallel feature work safely with Git worktrees. Standardizes branch isolation, port allocation, environment sync, and cleanup so each worktree behaves like an independent local app. Optimized for multi-agent workflows where each agent or terminal session owns one worktree. Use when running multiple feature branches simultaneously, isolating experimental work, or coordinating multi-agent development across the same repo."
     },
     {
       "name": "interview-system-designer",
@@ -567,7 +567,7 @@
       "name": "monorepo-navigator",
       "source": "../../engineering/skills/monorepo-navigator",
       "category": "engineering-advanced",
-      "description": "Monorepo Navigator"
+      "description": "Navigate, manage, and optimize monorepos. Covers Turborepo, Nx, pnpm workspaces, and Lerna. Cross-package impact analysis, selective builds/tests on affected packages, remote caching, dependency graph visualization, and structured multi-repo to monorepo migrations. Use when setting up a new monorepo, optimizing CI for a large workspace, debugging cross-package dependency issues, or planning a multi-repo consolidation."
     },
     {
       "name": "observability-designer",
@@ -633,7 +633,7 @@
       "name": "skill-tester",
       "source": "../../engineering/skills/skill-tester",
       "category": "engineering-advanced",
-      "description": "Skill Tester"
+      "description": "Validate, test, and score the quality of skills within the claude-skills ecosystem. Comprehensive meta-skill: structure validation, Python script testing (syntax + imports + runtime + output format), multi-dimensional quality scoring with letter grades and tier classification (BASIC/STANDARD/POWERFUL). Use when authoring a new skill, auditing existing skills for tier promotion, setting up pre-commit hooks for skill quality, or integrating skill QA into CI."
     },
     {
       "name": "slo-architect",
