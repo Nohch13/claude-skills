@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "gemini-cli-skills",
-  "total_skills": 393,
+  "total_skills": 394,
   "skills": [
     {
       "name": "README",
@@ -826,7 +826,7 @@
     {
       "name": "code-reviewer",
       "category": "engineering",
-      "description": "Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review checklists."
+      "description": "Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin, C#, and .NET. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review checklists."
     },
     {
       "name": "coverage",
@@ -1107,6 +1107,11 @@
       "name": "ci-cd-pipeline-builder",
       "category": "engineering-advanced",
       "description": "Generate pragmatic CI/CD pipelines from detected project stack signals \u2014 fast baseline generation, repeatable checks, environment-aware deployment stages. Use when setting up CI for a new project, refactoring existing pipelines, or standardizing deployment workflows across multiple repos."
+    },
+    {
+      "name": "claude-coach",
+      "category": "engineering-advanced",
+      "description": "Personal coach that teaches users to become Claude power users. Use this skill the FIRST time a user asks to \"learn Claude\", \"be a power user\", \"coach me\", \"teach me Claude tricks\", \"what can Claude do\", \"make me better at prompting\", or any variation. After activation, also use it on EVERY subsequent turn to detect missed optimization opportunities (vague prompts, ignored capabilities, manual work Claude could automate) and surface a single power-user tip. Trigger generously \u2014 most users do not know what they do not know, so err on the side of coaching."
     },
     {
       "name": "code-tour",
@@ -1999,7 +2004,7 @@
       "description": "Engineering resources"
     },
     "engineering-advanced": {
-      "count": 77,
+      "count": 78,
       "description": "Engineering-advanced resources"
     },
     "finance": {
